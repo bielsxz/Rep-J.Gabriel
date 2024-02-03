@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(34,34,34);
+    color: white;
+    font-family: Sigmarregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-style: italic;
+
+
+}
+li {
+    display: inline-block;
+    margin: 20px;
+
+}
+
+#config{
+
+    border-bottom-width: 50px;
+    border-bottom-color:blue;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(132, 13, 201);
+    transition: 0.3s all;
+    
+}
+#config{
+    border: 2px solid rgb(132, 13, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+h1 {
+    font-weight: 300;
+
+}
+
+main {
+
+display: flex;
+flex-direction: row;
+margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: popinsmedium;
+}
+#nav {
+    font-weight: bold;
+    color: rgb(132, 13, 201);
+}
+#branco {
+    color: aliceblue;
+}   
+
+p {
+
+    line-height: 20px;
+    max-width: 500px;
+    letter-spacing: 1px;
+    
+    
+}
+
+img{
+    width: 600px;
+}
+
+form {
+    width: 5px;
+}
+
+#para{
+    font-size: large;
+}
+
+#config:hover{
+    background-color: rgb(132, 13, 201);
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+input {
+    margin-top: 20px;
+    border: 2px solid rgb(132, 13, 201);
+    padding: 15px;
+    border-radius: 15px;
+
+}
+#boton{
+    border: 2px solid rgb(132, 13, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+

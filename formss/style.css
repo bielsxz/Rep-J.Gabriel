@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #d2d2c1 url('/imgs/capa.png') no-repeat;
+}
+#container{
+
+    width: 900px;
+    height: 1000px;
+}
+#menu{
+background: #c5c5b2;
+padding: 15px;
+display: flex;
+flex-direction: row;
+margin-bottom: -10px;
+margin-top: -10px;
+
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+ 
+ 
+}
+li{
+    margin-right: 100px;
+ 
+}
+li a{
+    text-decoration: none;
+    font-weight: bold;  
+    color: #998619;
+    
+}
+#section{
+    background: white;
+    width: 900px;
+    height: 420px;
+
+}
+#text{
+    margin: 10px;
+    text-align: justify;
+    padding: 10px;
+    
+    
+    
+}
+#text p {
+    margin-top: 15px;
+}
+#title{
+    margin-bottom: 10px;
+    font-weight: bold ;
+    font-size: 22px;
+    color: #828271;
+}
+
+#rodapé{
+    margin-top: 15px;
+    text-align: center;
+}
